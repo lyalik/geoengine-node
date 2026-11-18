@@ -1,0 +1,38 @@
+{
+    "name": "@geoengine/node",
+    "version": "1.0.1",
+    "description": "GEO Engine bridge for Node.js — Express, NestJS and plain http. SEO meta, JSON-LD, llms.txt, catalog mirror, managed files, self-update.",
+    "main": "src/index.js",
+    "types": "src/index.d.ts",
+    "exports": {
+        ".": "./src/index.js",
+        "./express": "./src/express.js",
+        "./nestjs": "./src/nestjs.js",
+        "./http": "./src/http.js",
+        "./inject": "./src/inject.js"
+    },
+    "files": [
+        "src",
+        "README.md",
+        "INSTALL.md"
+    ],
+    "scripts": {
+        "test": "node --test test/"
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "dependencies": {
+        "adm-zip": "^0.5.16"
+    },
+    "peerDependencies": {
+        "express": ">=4",
+        "@nestjs/common": ">=9"
+    },
+    "peerDependenciesMeta": {
+        "express": { "optional": true },
+        "@nestjs/common": { "optional": true }
+    },
+    "license": "UNLICENSED",
+    "private": false
+}

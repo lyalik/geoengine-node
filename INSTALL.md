@@ -13,7 +13,7 @@ SEO-мета, JSON-LD, llms.txt, каталог товаров, managed-файл
 ## Установка
 
 ```bash
-npm install @geoengine/node
+npm install github:lyalik/geoengine-node#v1.0.1
 ```
 
 или vendored-вариант (zip с geoengine.pro):
